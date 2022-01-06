@@ -33,6 +33,9 @@ public class StudentView {
     private StudentRepoJDBC studentRepoJDBC = new StudentRepoJDBC();
     private StudentController studentController = new StudentController(studentRepoJDBC);
 
+    /**
+     * Sets object invisible
+     */
     @FXML
     public void initialize() {
         courseIdText.setVisible(false);
