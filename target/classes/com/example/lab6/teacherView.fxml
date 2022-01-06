@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab6.TeacherView">
+   <children>
+      <ListView fx:id="teacherListView" layoutX="82.0" layoutY="107.0" prefHeight="200.0" prefWidth="456.0" />
+      <TextField fx:id="teacherTextField" layoutX="200.0" layoutY="55.0" prefHeight="25.0" prefWidth="220.0" />
+      <Label fx:id="teacherLabel" layoutX="144.0" layoutY="59.0" prefHeight="17.0" prefWidth="35.0" text="User:" />
+      <Button fx:id="teacherLoginButton" layoutX="444.0" layoutY="55.0" mnemonicParsing="false" onAction="#login" text="Login" />
+      <Button layoutX="263.0" layoutY="335.0" mnemonicParsing="false" onAction="#refreshList" text="Refresh list" />
+   </children>
+</AnchorPane>

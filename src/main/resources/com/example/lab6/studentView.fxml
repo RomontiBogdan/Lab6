@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="456.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab6.StudentView">
+   <children>
+      <ListView fx:id="coursesListView" layoutX="72.0" layoutY="97.0" prefHeight="200.0" prefWidth="456.0" />
+      <TextField fx:id="courseIdText" layoutX="134.0" layoutY="335.0" prefHeight="25.0" prefWidth="34.0" />
+      <Label fx:id="courseIdLabel" layoutX="72.0" layoutY="339.0" prefHeight="17.0" prefWidth="62.0" text="Course ID:" />
+      <Button fx:id="enrollButton" layoutX="179.0" layoutY="335.0" mnemonicParsing="false" onAction="#register" text="Enroll" />
+      <Button fx:id="creditsButton" layoutX="444.0" layoutY="335.0" mnemonicParsing="false" onAction="#showCredits" text="Show credits" />
+      <TextField fx:id="userTextField" layoutX="190.0" layoutY="45.0" prefHeight="25.0" prefWidth="220.0" />
+      <Label fx:id="userLabel" layoutX="134.0" layoutY="49.0" prefHeight="17.0" prefWidth="35.0" text="User:" />
+      <Button fx:id="loginButton" layoutX="434.0" layoutY="45.0" mnemonicParsing="false" onAction="#login" text="Login" />
+   </children>
+</AnchorPane>
